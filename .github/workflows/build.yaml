@@ -41,7 +41,7 @@ jobs:
 
   tag-latest:
     name: Tag latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/mai'
     needs:
       - build
     runs-on: ubuntu-latest
